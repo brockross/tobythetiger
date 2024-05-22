@@ -9,12 +9,15 @@
 
   <title>toby the tiger</title>
   <style>
-    body {
+    html, body {
       font-family: "DM Mono", monospace;
       margin: 0;
       padding: 0;
       background-color: #fefbea;
       color: #3c4142;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
     }
 
     #banner {
@@ -69,7 +72,7 @@
   <div>
     <div id="banner">toby the tiger</div>
     <div id="main-container">
-      <marquee id="tagline">thoughtful indie rock // Boise, ID</marquee>
+      <marquee id="tagline" scrollamount="6">thoughtful indie rock // Boise, ID</marquee>
       <div id="cards-container">
         <a href="https://tobythetiger.bandcamp.com/" class="link-card">bandcamp</a>
         <a href="https://twitter.com/toby_the_tiger_" class="link-card"> twitter</a>
